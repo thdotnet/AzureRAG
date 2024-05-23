@@ -1,8 +1,7 @@
-// Variables
-var location = 'eastus'
-var storageAccountName = 'yourstorageaccountname' // Change to a unique name
-var searchServiceName = 'yoursearchservicename' // Change to a unique name
-var openAIServiceName = 'youropenaiservicename' // Change to a unique name
+param location = 'eastus'
+param storageAccountName = 'yourstorageaccountname' // Change to a unique name
+param searchServiceName = 'yoursearchservicename' // Change to a unique name
+param openAIServiceName = 'youropenaiservicename' // Change to a unique name
 
 // Storage Account
 resource storageAccount 'Microsoft.Storage/storageAccounts@2021-04-01' = {
