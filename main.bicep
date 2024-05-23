@@ -1,4 +1,4 @@
-param location = 'eastus'
+param location string
 param storageAccountName string
 param searchServiceName string
 param openAIServiceName string
