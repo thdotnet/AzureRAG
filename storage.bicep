@@ -20,3 +20,5 @@ resource blobContainer 'Microsoft.Storage/storageAccounts/blobServices/container
     publicAccess: 'None'
   }
 }
+
+output storageConnectionString string = listKeys(storageAccount.id, '2021-04-01').keys[0].value
