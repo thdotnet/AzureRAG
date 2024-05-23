@@ -1,7 +1,7 @@
 param location = 'eastus'
-param storageAccountName = 'yourstorageaccountname' // Change to a unique name
-param searchServiceName = 'yoursearchservicename' // Change to a unique name
-param openAIServiceName = 'youropenaiservicename' // Change to a unique name
+param storageAccountName string
+param searchServiceName string
+param openAIServiceName string
 
 // Storage Account
 resource storageAccount 'Microsoft.Storage/storageAccounts@2021-04-01' = {
